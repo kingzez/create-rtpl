@@ -1,7 +1,7 @@
 {
   "name": "create-rtpl",
   "description": "init react template project ",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "kingzez",
   "bin": {
     "rtpl": "./bin/run"
