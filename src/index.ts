@@ -50,7 +50,7 @@ class CreateRtpl extends Command {
     const prompt = require('prompt-sync')()
     const required = false
     const str = promptText(`> You need to specify the project name${required ? '(required)' : ''}: `)
-    let project = prompt(str)
+    let project = prompt(str).trim()
     const projectPath = path.join(process.cwd(), project)
     if (fs.existsSync(projectPath)) throw new Error(`Abort, "${project}" already exists. Nothing has changed.`)
     const projectName = project
