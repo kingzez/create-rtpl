@@ -40,7 +40,9 @@
   ],
   "homepage": "https://github.com/kingzez/create-rtpl",
   "keywords": [
-    "oclif"
+    "rtpl",
+    "create react template",
+    "cli"
   ],
   "license": "MIT",
   "main": "lib/index.js",
